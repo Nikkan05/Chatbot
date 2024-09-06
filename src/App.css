@@ -1,0 +1,169 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+  display: flex;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #FFF3B0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #BB9457;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.logo h1 {
+  margin-left: 10px;
+  color: #333;
+}
+
+.search-bar {
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.events {
+  width: 70%;
+}
+
+.events h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.event-card {
+  background-color: #E09F3E;
+  border: 1px solid #d1b78e;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  color: #540B0E;
+}
+
+.event-card h3 {
+  margin: 0 0 10px;
+}
+
+.buy-tickets {
+  background-color: #9E2A2B;
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.museum-info {
+  width: 25%;
+  background-color: #fff7e4;
+  border: 1px solid #df9825;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.museum-info h2 {
+  margin-bottom: 20px;
+}
+
+footer.chatbot {
+  position: fixed;
+  bottom: 0;
+  width: 80%;
+  background-color: #fff7e4;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid #d1b78e;
+}
+
+.chatbox {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  width: 80%;
+}
+
+.chatbox img {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.chat-input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.send-button {
+  background-color: #d1b78e;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* .pic{
+  height: 70px;
+  width: 70px;
+} */
